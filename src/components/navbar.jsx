@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from '../assets/dvlogo.png';
+import Logo from '../assets/city-white-transp.png';
 import {Link} from 'react-scroll';
 
 const Navbar = () => {
@@ -33,13 +33,8 @@ return (
                 </Link>
                 </li>
                 <li>
-                <Link to="Work" smooth={true} offset={50} duration={500}>
-                Work
-                </Link>
-                </li>
-                <li>
-                <Link to="Contact" smooth={true} offset={50} duration={500}>
-                Contact
+                <Link to="615-517-7740" smooth={true} offset={50} duration={500}>
+                Call Us: 615-517-7740
                 </Link>
                 </li>
             </ul>
