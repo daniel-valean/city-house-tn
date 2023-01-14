@@ -8,7 +8,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
 return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#5c758900] text-white' >
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#5c758900] text-white' id='navbar'>
         <div><Link to="home" smooth={true} offset={50} duration={500}>
             <img src={Logo} alt="Logo" style={{width: '190px'}} /></Link>
         </div>
@@ -41,8 +41,37 @@ return (
             <div onClick={handleClick} className='md:hidden z-10'>
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
+
+                    {/* mobile */}
+                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+                <li className='py-6 text-4xl'>           
+                <Link onClick={handleClick} to="Home" smooth={true} offset={50} duration={500}>
+                Home
+                </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="About" smooth={true} offset={50} duration={500}>
+                About
+                </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="Skills" smooth={true} offset={50} duration={500}>
+                Skills
+                </Link>
+                </li>
+                <li onClick={handleClick} className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="Work" smooth={true} offset={50} duration={500}>
+                Work
+                </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="Contact" smooth={true} offset={50} duration={500}>
+                Contact
+                </Link>
+                </li>
+            </ul>
     </div>
-  )
+    )
 }
 
 export default Navbar
