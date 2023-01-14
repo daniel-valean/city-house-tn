@@ -9,7 +9,7 @@ import React from 'react'
 
 
 const aboutus = () => {
-  return (
+return (
     <div name='about us' className='w-full h-screen bg-[#6d7178c3] text-white'>
     {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
