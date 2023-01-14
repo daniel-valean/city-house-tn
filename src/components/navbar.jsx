@@ -50,18 +50,13 @@ return (
                 </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="howitworks" smooth={true} offset={50} duration={500}>
+                <Link onClick={handleClick} to="Howitworks" smooth={true} offset={50} duration={500}>
                 How it works
                 </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="aboutus" smooth={true} offset={50} duration={500}>
+                <Link onClick={handleClick} to="Aboutus" smooth={true} offset={50} duration={500}>
                 About Us
-                </Link>
-                </li>
-                <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="Contact" smooth={true} offset={50} duration={500}>
-                Contact
                 </Link>
                 </li>
             </ul>
