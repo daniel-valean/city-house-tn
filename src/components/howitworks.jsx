@@ -9,14 +9,7 @@ const howitworks = () => {
                     <p className='text-5xl font-bold inline border-b-4 border-[#816142]'>How it works</p>
                     <div></div>
                 </div>
-            {/* </div>
-              <div className=''>
-                <div className='sm:text-right text-4xl font-bold'>
-                  <p>Hi I'm Daniel, nice to meet you.</p>
-                </div>
-                <div className='text-2xl'>
-                  <p>I'm a full-stack web developer with a focus on the MERN stack, but still exploring other technologies and frameworks that catch my interest. If you're looking for a developer to add to your team, I'd love to hear from you!</p>
-                </div> */}
+
             </div>
         </div>
     </div>
