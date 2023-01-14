@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <div name='Home' className='w-full h-screen' >
         <video src={videobg} autoPlay loop muted playsInLine id='video'/>
+        {/* <div className='bg-overlay'></div> */}
         {/* container */}
         <div className='max-w-[1000px] px-36 flex flex-col justify-center h-full' id='writing'>
             <h1 className='text-4xl sm:text-7xl text-white font-thin'>We Buy Houses</h1>

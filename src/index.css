@@ -35,7 +35,16 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    
 }
+
+/* .bg-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top: 0;
+
+} */
 
 #navbar {
     z-index: 1;
