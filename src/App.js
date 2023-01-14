@@ -1,8 +1,7 @@
 import Home from "./components/Home";
 import Navbar from "./components/navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Howitworks from "./components/howitworks"
+import Aboutus from "./components/aboutus";
 import Contact from "./components/Contact";
 
 
@@ -11,9 +10,8 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <About />
-      <Skills />
-      <Work />
+      <Howitworks />
+      <Aboutus />
       <Contact />
     </div>
   );

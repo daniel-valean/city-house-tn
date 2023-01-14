@@ -21,13 +21,13 @@ return (
                 </Link>
                 </li>
                 <li>                
-                <Link to="About" smooth={true} offset={50} duration={500}>
-                About
+                <Link to="How it works" smooth={true} offset={50} duration={500}>
+                How it works
                 </Link>
                 </li>
                 <li>
-                <Link to="Skills" smooth={true} offset={50} duration={500}>
-                Skills
+                <Link to="About us" smooth={true} offset={50} duration={500}>
+                About Us
                 </Link>
                 </li>
                 <li>
@@ -50,18 +50,13 @@ return (
                 </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="About" smooth={true} offset={50} duration={500}>
-                About
+                <Link onClick={handleClick} to="howitworks" smooth={true} offset={50} duration={500}>
+                How it works
                 </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="Skills" smooth={true} offset={50} duration={500}>
-                Skills
-                </Link>
-                </li>
-                <li onClick={handleClick} className='py-6 text-4xl'>
-                <Link onClick={handleClick} to="Work" smooth={true} offset={50} duration={500}>
-                Work
+                <Link onClick={handleClick} to="aboutus" smooth={true} offset={50} duration={500}>
+                About Us
                 </Link>
                 </li>
                 <li className='py-6 text-4xl'>
