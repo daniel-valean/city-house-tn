@@ -8,9 +8,9 @@ import React from 'react'
 
 
 
-const Aboutus = () => {
+const aboutus = () => {
 return (
-    <div name='Aboutus' className='w-full h-screen bg-[#6d7178c3] text-white'>
+    <div name='aboutus' className='w-full h-screen bg-[#6d7178c3] text-white'>
     {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
@@ -47,4 +47,4 @@ return (
     );
 };
 
-export default Aboutus
+export default aboutus
