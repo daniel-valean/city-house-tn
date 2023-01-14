@@ -10,11 +10,11 @@ import Mongo from '../assets/mongo.png';
 
 const aboutus = () => {
   return (
-    <div name='Skills' className='w-full h-screen bg-[#3b5382c3] text-white'>
+    <div name='about us' className='w-full h-screen bg-[#3b5382c3] text-white'>
     {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-5xl font-bold inline border-b-4 border-[#aacded]'>Skills</p>
+                <p className='text-5xl font-bold inline border-b-4 border-[#aacded]'>About Us</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
             <div className='hover:scale-110 duration-500'>

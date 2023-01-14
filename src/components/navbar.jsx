@@ -21,12 +21,12 @@ return (
                 </Link>
                 </li>
                 <li>                
-                <Link to="How it works" smooth={true} offset={50} duration={500}>
+                <Link to="Howitworks" smooth={true} offset={50} duration={500}>
                 How it works
                 </Link>
                 </li>
                 <li>
-                <Link to="About us" smooth={true} offset={50} duration={500}>
+                <Link to="Aboutus" smooth={true} offset={50} duration={500}>
                 About Us
                 </Link>
                 </li>
