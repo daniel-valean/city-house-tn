@@ -14,7 +14,7 @@ const Home = () => {
             <p className='text-white font-thin text-2xl'>to receive a fair no pressure cash offer</p>
         </div>
         <div name='form' className='w-full h-screen flex justify-end items-center p-60 ' id='form'>
-            <form method='POST' action="https://getform.io/f/df14e171-a498-41f8-8d20-96162deb1c43" className='sm:grid-cols-2 md:grid-cols-3 flex flex-col max-w-[400px] border-2 bg-gray-400/50 shadow-md rounded px-8'>
+            <form method='POST' action="https://getform.io/f/df14e171-a498-41f8-8d20-96162deb1c43" className='flex flex-col max-w-[400px] border-2 bg-gray-400/50 shadow-md rounded px-8'>
                 <div>
                 <p className='text-white py-3'>Contact Us</p>
                 </div>
