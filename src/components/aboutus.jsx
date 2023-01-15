@@ -1,16 +1,9 @@
 import React from 'react'
-// import CSS from '../assets/css.png';
-// import JavaScript from '../assets/javascript.png';
-// import ReactImg from '../assets/react.png';
-// import Node from '../assets/node.png';
-// import Html from '../assets/html.png';
-// import Mongo from '../assets/mongo.png';
-
 
 
 const aboutus = () => {
 return (
-    <div name='aboutus' className='w-full h-screen bg-[#6d7178c3] text-white'>
+    <div name='aboutus' className='w-full h-screen bg-[#85858a] text-white'>
     {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
