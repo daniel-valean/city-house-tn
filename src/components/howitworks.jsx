@@ -7,7 +7,7 @@ import Closed from '../assets/closed.png';
 
 const howitworks = () => {
   return (
-    <div name='howItWorks' className='w-full h-screen bg-[#878484cb] text-black'>
+    <div name='howItWorks' className='w-full h-screen bg-[#ffffffcb] text-black'>
     {/* container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>

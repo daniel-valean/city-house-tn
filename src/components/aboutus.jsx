@@ -8,11 +8,11 @@ import Closed from '../assets/closed.png';
 
 const aboutus = () => {
 return (
-    <div name='aboutus' className='w-full h-screen bg-[#ffffff] text-black'>
+    <div name='aboutus' className='bg-[#ffffff] text-black mb-20'>
     {/* container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col w-full h-full'>
-            <div className='mt-20'>
-                <p className='text-5xl font-thin inline border-b-4 border-[#aacded]'>About Us</p>
+        <div className='max-w-[1000px] mx-auto border shadow-2xl rounded-md p-4 flex flex-col w-full h-full'>
+            <div>
+                <p className='text-5xl font-thin inline border-b-4 border-[#dadcde]'>About Us</p>
             </div>
             <div className='max-w-[1000px] w-full mb-10 grid sm:grid-cols-2'>
             <div>
@@ -28,26 +28,26 @@ return (
         </div>
 
 
-            <div className='bg-grey-400'>
-                <p className='text-5xl font-thin inline border-b-4 border-[#dcdcdc]'>Some of Our Work</p>
+            <div>
+                <p className='text-3xl font-thin inline border-b-4 border-[#dcdcdc]'>Some of Our Work</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-2 gap-4 text-center py-8'>
-            <div className='border'>
+            <div className='border border-[#cdcbcb] rounded-md text-black'>
                     <img className='w-40 mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
-                    <p className='my-4 text-2xl'>Step 1 - Free Evaluation</p>
+                    <p className='my-4 text-2xl font-thin'>Step 1 - Free Evaluation</p>
                 </div>
 
-                <div className='border border-[#000000] rounded-md bg-[#7575758f] text-white'>
+                <div className='border border-[#cdcbcb] rounded-md text-black'>
                     <img className='w-40 mx-auto' src={Cashoffer} alt="Cash Offer Icon"/>
                     <p className='my-4 text-2xl font-thin'>Step 2 - Cash Offer</p>
                 </div>
 
-                <div className='hover:scale-110 duration-500'>
+                <div className='border border-[#cdcbcb] rounded-md text-black'>
                     <img className='w-40 mx-auto' src={Agreement} alt="Agreement Icon"/>
                     <p className='my-4 text-2xl'>Step 3 - Agreement</p>
                 </div>
 
-                <div className='hover:scale-110 duration-500'>
+                <div className='border border-[#cdcbcb] rounded-md text-black'>
                     <img className='w-40 mx-auto' src={Closed} alt="Closed"/>
                     <p className='my-4 text-2xl'>Step 4 - Closed</p>
                 </div>
