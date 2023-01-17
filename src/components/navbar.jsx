@@ -36,7 +36,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <a href="tel:615-499-6776">Call Today!</a>
+          <a href="tel:615-499-6776">Call Today - 615-499-6776</a>
         </li>
       </ul>
 
