@@ -1,22 +1,22 @@
 import React from 'react'
 import Family from '../assets/family-1.jpg'
 import Caldwell1 from '../assets/calwell-before.jpg';
-import Cashoffer from '../assets/cashoffer.png';
-import Agreement from '../assets/agreement.png';
-import Closed from '../assets/closed.png';
+import Caldwell2 from '../assets/caldwell-after.jpg';
+import Condo1 from '../assets/condo-after-1.jpg';
+import Condo2 from '../assets/condo-after-2.jpg';
 
 
 const aboutus = () => {
 return (
-    <div name='aboutus' className='bg-[#ffffff] text-black mb-20'>
+    <div name='aboutus' className='bg-[#ffffff] mb-20'>
     {/* container */}
-        <div className='max-w-[1000px] mx-auto border shadow-2xl rounded-md p-4 flex flex-col w-full h-full'>
+        <div className='max-w-[1000px] mx-auto border shadow-2xl rounded-lg bg-[#6a8fb9ba] text-white p-4 flex flex-col w-full h-full'>
             <div>
-                <p className='text-5xl font-thin inline border-b-4 border-[#dadcde]'>About Us</p>
+                <p className='text-5xl font-thin inline border-b-4 border-[#ffffff]'>About Us</p>
             </div>
             <div className='max-w-[1000px] w-full mb-10 grid sm:grid-cols-2'>
             <div>
-                    <img className='w-40 mt-10 ml-8' src={Family} alt="Family Pic"/>
+                    <img className='w-40 mt-10 ml-40' src={Family} alt="Family Pic"/>
             </div>
             <div className='font-thin mt-10 w-full'>                    
                 <p className=''>We love Nashville and we love real estate! We have helped may home owners with difficult properties and situations, 
@@ -29,27 +29,28 @@ return (
 
 
             <div>
-                <p className='text-3xl font-thin inline border-b-4 border-[#dcdcdc]'>Some of Our Work</p>
+                <p className='text-3xl inline font-thin border-b-4 border-[#ffffff]'>Some of Our Work</p>
             </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-2 gap-4 text-center py-8'>
-            <div className='border border-[#cdcbcb] rounded-md text-black'>
-                    <img className='w-40 mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
-                    <p className='my-4 text-2xl font-thin'>Step 1 - Free Evaluation</p>
+            <div className='w-full grid gap-4 text-center py-8'>
+            <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-[#00000051] rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
+                    <img className='w-96 m-5 ml-1 rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
                 </div>
 
-                <div className='border border-[#cdcbcb] rounded-md text-black'>
-                    <img className='w-40 mx-auto' src={Cashoffer} alt="Cash Offer Icon"/>
-                    <p className='my-4 text-2xl font-thin'>Step 2 - Cash Offer</p>
+                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-white rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Condo1} alt="Evaluation Icon"/>
+                    <img className=' w-96 m-5 ml-1 rounded-lg mx-auto' src={Condo2} alt="Evaluation Icon"/>
                 </div>
 
-                <div className='border border-[#cdcbcb] rounded-md text-black'>
-                    <img className='w-40 mx-auto' src={Agreement} alt="Agreement Icon"/>
-                    <p className='my-4 text-2xl'>Step 3 - Agreement</p>
+                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-white rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
+                    <img className=' w-96 m-5 ml-1 rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
                 </div>
 
-                <div className='border border-[#cdcbcb] rounded-md text-black'>
-                    <img className='w-40 mx-auto' src={Closed} alt="Closed"/>
-                    <p className='my-4 text-2xl'>Step 4 - Closed</p>
+                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-white rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
+                    <img className=' w-96 m-5 ml-1 rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
+                    {/* <p className='my-4 text-2xl font-thin'></p> */}
                 </div>
 
 
