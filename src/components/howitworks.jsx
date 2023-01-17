@@ -9,7 +9,7 @@ const howitworks = () => {
   return (
     <div name='howItWorks' className='w-full h-screen bg-[#ffffffcb] text-black'>
     {/* container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 justify-center w-full h-full'>
             <div>
                 <p className='text-6xl font-thin inline border-b-4 border-[#dcdcdc]'>We Make It Easy To Sell Your House Fast</p>
             </div>

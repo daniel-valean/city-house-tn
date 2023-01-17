@@ -32,24 +32,24 @@ return (
                 <p className='text-3xl inline font-thin border-b-4 border-[#ffffff]'>Some of Our Work</p>
             </div>
             <div className='w-full grid gap-4 text-center py-8'>
-            <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-[#00000051] rounded-lg text-black'>
-                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
-                    <img className='w-96 m-5 ml-1 rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
+            <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
+                    <img className='w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
                 </div>
 
-                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-white rounded-lg text-black'>
-                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Condo1} alt="Evaluation Icon"/>
-                    <img className=' w-96 m-5 ml-1 rounded-lg mx-auto' src={Condo2} alt="Evaluation Icon"/>
+                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto' src={Condo1} alt="Evaluation Icon"/>
+                    <img className=' w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto' src={Condo2} alt="Evaluation Icon"/>
                 </div>
 
-                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-white rounded-lg text-black'>
-                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
-                    <img className=' w-96 m-5 ml-1 rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
+                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
+                    <img className=' w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
                 </div>
 
-                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-white rounded-lg text-black'>
-                    <img className='w-96 m-5 ml-16 rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
-                    <img className=' w-96 m-5 ml-1 rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
+                <div className='border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black'>
+                    <img className='w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto' src={Caldwell1} alt="Evaluation Icon"/>
+                    <img className=' w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto' src={Caldwell2} alt="Evaluation Icon"/>
                     {/* <p className='my-4 text-2xl font-thin'></p> */}
                 </div>
 
