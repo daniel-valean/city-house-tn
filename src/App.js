@@ -2,6 +2,7 @@ import Home from "./components/Home";
 import Navbar from "./components/navbar";
 import Howitworks from "./components/howitworks";
 import Aboutus from "./components/aboutus";
+import Footer from  "./components/footer";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Howitworks />
       <Aboutus />
+      <Footer />
     </div>
   );
 }
