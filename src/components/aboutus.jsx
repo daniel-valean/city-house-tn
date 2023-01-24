@@ -67,8 +67,6 @@ const aboutus = () => {
               alt="Evaluation Icon"/>
           </div>
 
-
-            {/* <p className='my-4 text-2xl font-thin'></p> */}
           </div>
         </div>
       </div>
