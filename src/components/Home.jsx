@@ -9,7 +9,7 @@ const Home = () => {
       {/* <div className='bg-overlay'></div> */}
       {/* container */}
       <div
-        className="max-w-[1000px] h-full" id="writing">
+        className="max-w-[1000px] text-center ml-10 mt-32 md:mt-60 h-full" id="writing">
         <h1 className="text-4xl sm:text-7xl text-white font-thin">
           We Buy Houses
         </h1>
@@ -23,15 +23,16 @@ const Home = () => {
         <p className="md:text-4xl text-white font-thin ">
           us a call to receive a fair no pressure cash offer
         </p>
+      </div>
 
-        <div
+      <div
         name="form"
-        className="w-full h-screen items-center"
+        className="w-full h-screen mt-96 "
         id="form">
         <form
           method="POST"
           action="https://getform.io/f/560c6240-58a7-4478-ba2c-ee4ddb075957"
-          className="flex flex-col max-w-[400px] border-2 bg-gray-400/50 shadow-md rounded px-8">
+          className="flex flex-col max-w-[600px] border-2 bg-gray-400/50 shadow-md rounded px-8">
           <input
             className="bg-white mt-4 p-2"
             type="text"
@@ -57,9 +58,6 @@ const Home = () => {
             Get My Cash Offer
           </button>
         </form>
-      </div>
-
-
       </div>
 
     </div>
