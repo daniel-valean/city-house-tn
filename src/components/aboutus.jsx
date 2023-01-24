@@ -19,9 +19,9 @@ const aboutus = () => {
         </div>
         <div className="max-w-screen-xl w-full mb-10">
           <div className="lg:inline-flex">
-            <img className="w-80 m-auto lg:ml-16 mt-14 rounded-lg" src={Family} alt="Family Pic" />
-            <img className="w-80 m-auto lg:ml-16 mt-14 rounded-lg" src={Family2} alt="Family Pic" />
-            <img className="w-80 m-auto lg:ml-16 mt-14 rounded-lg" src={Family3} alt="Family Pic" />
+            <img className="w-80 m-auto lg:ml-1 mt-14 rounded-lg" src={Family} alt="Family Pic" />
+            <img className="w-80 m-auto lg:ml-1 mt-14 rounded-lg" src={Family2} alt="Family Pic" />
+            <img className="w-80 m-auto lg:ml-1 mt-14 rounded-lg" src={Family3} alt="Family Pic" />
 
           </div>
           <div className="font-thin mt-10 w-full">
