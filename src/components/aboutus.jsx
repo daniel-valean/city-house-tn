@@ -9,18 +9,18 @@ const aboutus = () => {
   return (
     <div name="aboutus" className="bg-[#ffffff] mb-20">
       {/* container */}
-      <div className="max-w-[1000px] mx-auto border shadow-2xl rounded-lg bg-[#6a8fb9ba] text-white p-4 flex flex-col w-full h-full">
+      <div className="max-w-screen-xl mx-auto border shadow-2xl rounded-lg bg-[#6a8fb9ba] text-white p-4 w-full h-full">
         <div>
           <p className="text-5xl font-thin inline border-b-4 border-[#ffffff]">
             About Us
           </p>
         </div>
-        <div className="max-w-[1000px] w-full mb-10 grid sm:grid-cols-2">
+        <div className="max-w-screen-xl w-full mb-10">
           <div>
-            <img className="w-40 mt-10 ml-40" src={Family} alt="Family Pic" />
+            <img className=" w-80 m-auto lg:ml-16 mt-14" src={Family} alt="Family Pic" />
           </div>
           <div className="font-thin mt-10 w-full">
-            <p className="">
+            <p className=" text-center">
               We love Nashville and we love real estate! We have helped may home
               owners with difficult properties and situations, weather they
               needed costly repairs, owed back taxes, inherited a problem house,
@@ -39,62 +39,23 @@ const aboutus = () => {
             Some of Our Work
           </p>
         </div>
-        <div className="w-full grid gap-4 text-center py-8">
-          <div className="border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black">
+        <div className="text-center py-8">
+          <div className="border place-content-center grid sm:inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black">
             <img
-              className="w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto"
-              src={Caldwell1}
-              alt="Evaluation Icon"
-            />
+              className="w-full sm:w-96 lg:m-10 shadow-2xl rounded-lg mx-auto"
+              src={Caldwell1} alt="Evaluation Icon"/>
             <img
-              className="w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto"
+              className="w-full sm:w-96 lg:m-10 shadow-2xl rounded-lg mx-auto"
               src={Caldwell2}
-              alt="Evaluation Icon"
-            />
+              alt="Evaluation Icon"/>
           </div>
 
-          <div className="border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black">
-            <img
-              className="w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto"
-              src={Condo1}
-              alt="Evaluation Icon"
-            />
-            <img
-              className=" w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto"
-              src={Condo2}
-              alt="Evaluation Icon"
-            />
-          </div>
 
-          <div className="border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black">
-            <img
-              className="w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto"
-              src={Caldwell1}
-              alt="Evaluation Icon"
-            />
-            <img
-              className=" w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto"
-              src={Caldwell2}
-              alt="Evaluation Icon"
-            />
-          </div>
-
-          <div className="border inline-flex shadow-2xl border-[#cdcbcb] bg-[#6a8fb9ba] rounded-lg text-black">
-            <img
-              className="w-96 m-5 ml-16 shadow-2xl rounded-lg mx-auto"
-              src={Caldwell1}
-              alt="Evaluation Icon"
-            />
-            <img
-              className=" w-96 m-5 ml-1 shadow-2xl rounded-lg mx-auto"
-              src={Caldwell2}
-              alt="Evaluation Icon"
-            />
             {/* <p className='my-4 text-2xl font-thin'></p> */}
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
