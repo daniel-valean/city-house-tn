@@ -9,7 +9,7 @@ const Home = () => {
       {/* <div className='bg-overlay'></div> */}
       {/* container */}
       <div
-        className="max-w-[1000px] text-center ml-8 mt-28 md:mt-60 h-full" id="writing">
+        className="max-w-[1000px] text-center ml-8 md:ml-20 mt-28 md:mt-60 lg:pl-80 lg:mt-20 lg h-full" id="writing">
         <h1 className="text-4xl sm:text-7xl text-white font-thin">
           We Buy Houses
         </h1>
@@ -27,7 +27,7 @@ const Home = () => {
 
       <div
         name="form"
-        className="w-full h-screen mt-80 "
+        className="w-full h-screen mt-80 md:pt-80 md:pl-28 lg:ml-80 lg:mt-24 "
         id="form">
         <form
           method="POST"
