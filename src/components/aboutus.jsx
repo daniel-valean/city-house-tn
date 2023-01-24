@@ -2,8 +2,6 @@ import React from "react";
 import Family from "../assets/family-1.jpg";
 import Caldwell1 from "../assets/calwell-before.jpg";
 import Caldwell2 from "../assets/caldwell-after.jpg";
-import Condo1 from "../assets/condo-after-1.jpg";
-import Condo2 from "../assets/condo-after-2.jpg";
 
 const aboutus = () => {
   return (
