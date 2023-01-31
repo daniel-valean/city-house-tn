@@ -27,7 +27,7 @@ export default class footer extends Component {
       </a>
 
 
-      <a href="#!" class="mr-9 text-gray-800">
+      <a href="https://maps.app.goo.gl/vusqh3b1CpswiP8m8?g_st=i" target="_blank" rel='noreferrer' class="mr-9 text-gray-800">
         <svg
           aria-hidden="true"
           focusable="false"
