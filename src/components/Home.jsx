@@ -1,6 +1,6 @@
 import React from "react";
 
-import background from "../assets/homepage-5.jpg";
+import background from "../assets/homepage-6.jpg";
 
 const Home = () => {
   return (
